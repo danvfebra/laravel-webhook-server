@@ -35,9 +35,7 @@ class CallWebhookJobTest extends TestCase
 
         $this->artisan('queue:work --once');
 
-        $this
-            ->testClient
-            ->assertRequestsMade([$this->baseRequest()]);
+        $this->testClient->assertRequestsMade([$this->baseRequest()]);
     }
 
     /** @test */
