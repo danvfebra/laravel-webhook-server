@@ -9,7 +9,7 @@ To do this, add the repository to the `composer.json` file:
 "repositories": [
     {
         "type": "git",
-        "url": "https://github.com/lidoma/laravel-webhook-server.git"
+        "url": "https://github.com/danvfebra/laravel-webhook-server.git"
     }
 ]
 ```
